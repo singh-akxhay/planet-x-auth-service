@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/planet-x-auth-service-db
+    username: akshay
+    password: Junk@2104
+
+jwt:
+  secret: sIoVC8OFOgmxbk9XRYtY2zMKXuYXBGL2d3x1IV37
+  expiration: 1
