@@ -1,7 +1,6 @@
 package com.singhakxhay.planetxauthservice.config
 
 import com.singhakxhay.planetxauthservice.exception.AuthExceptionHandler
-import com.singhakxhay.planetxauthservice.security.JwtAuthFilter
 import com.singhakxhay.planetxauthservice.security.AuthFilter
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Bean
